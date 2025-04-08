@@ -89,58 +89,106 @@
 
 
 
-//OPERADORES DE COMPARAÇÃO
+// //OPERADORES DE COMPARAÇÃO
 
-const num5 =25;
-const num6 =35;
+// const num5 =25;
+// const num6 =35;
 
-console.log(num5 == num6);//compara
-console.log(num5 === num6);//compara e verifica o tipo de variavel
-console.log(num5!= num6);//diferente
+// console.log(num5 == num6);//compara
+// console.log(num5 === num6);//compara e verifica o tipo de variavel
+// console.log(num5!= num6);//diferente
 
 
-//ESTRUTURA CONDICIONAL
+// //ESTRUTURA CONDICIONAL
 
-//IF
+// //IF
 
-let valor =100;
+// let valor =100;
 
-if(valor == 100){
-    console.log("é verdadeiro")
+// if(valor == 100){
+//     console.log("é verdadeiro")
+// }
+
+// //if/else
+
+// let valor1 =100;
+
+// if(valor == 100){
+//     console.log("Valor correto")
+// }else{
+//     console.log("Valor errado")
+// }
+
+// //if/else - encadeado ou aninhado
+
+// let idade = 71;
+
+// if(idade < 14){
+//     console.log("Não pode entrar na balada")
+// }
+// else if(idade >= 14 && idade < 18){
+//     console.log("Pode entrar e curtir")
+// }
+// else if (idade > 50 && idade < 70){
+//     console.log("Voçê não tem idade para isso")
+// }
+// else{
+//     console.log("fica em casa assistindo tv")
+// }
+
+// // Condição ternaria
+// // ? = if
+// // : = else
+
+// let valor2 =300;
+
+// let resultado = valor2 == 300 ? "certo": "Errado";
+// console.log(resultado)
+
+//SWITCH CASE
+
+let time ="Palmeiras";
+
+switch(time){
+    case "Santos":
+        console.log("melhor time")
+        break;
+    case "Corinthians":
+        console.log("não é um time")
+        break;
+    case "Palmeiras":
+        console.log("Não tem mundial")
+        break;
+    default:
+        console.log("nenhuma das opções")            
 }
 
-//if/else
+// ESTRUTURA DE LAÇO DE REPETIÇÃO
 
-let valor1 =100;
-
-if(valor == 100){
-    console.log("Valor correto")
-}else{
-    console.log("Valor errado")
+for(let i=0;i<=10;i++){
+    console.log("O valor de I é :",i)
 }
 
-//if/else - encadeado ou aninhado
+//WHILE
 
-let idade = 71;
+let w=0;
 
-if(idade < 14){
-    console.log("Não pode entrar na balada")
-}
-else if(idade >= 14 && idade < 18){
-    console.log("Pode entrar e curtir")
-}
-else if (idade > 50 && idade < 70){
-    console.log("Voçê não tem idade para isso")
-}
-else{
-    console.log("fica em casa assistindo tv")
+while(w <=10){
+   console.log("O valor de W é ",w)
+   w++;
 }
 
-// Condição ternaria
-// ? = if
-// : = else
 
-let valor2 =300;
+//do While
 
-let resultado = valor2 == 300 ? "certo": "Errado";
-console.log(resultado)
+let z= 10;
+
+do{
+    console.log("do While é",z)
+    z++;
+}while(z <= 100)
+
+    
+
+
+
