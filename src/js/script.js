@@ -145,50 +145,63 @@
 // let resultado = valor2 == 300 ? "certo": "Errado";
 // console.log(resultado)
 
-//SWITCH CASE
+// //SWITCH CASE
 
-let time ="Palmeiras";
+// let time ="Palmeiras";
 
-switch(time){
-    case "Santos":
-        console.log("melhor time")
-        break;
-    case "Corinthians":
-        console.log("não é um time")
-        break;
-    case "Palmeiras":
-        console.log("Não tem mundial")
-        break;
-    default:
-        console.log("nenhuma das opções")            
+// switch(time){
+//     case "Santos":
+//         console.log("melhor time")
+//         break;
+//     case "Corinthians":
+//         console.log("não é um time")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem mundial")
+//         break;
+//     default:
+//         console.log("nenhuma das opções")            
+// }
+
+// // ESTRUTURA DE LAÇO DE REPETIÇÃO
+
+// for(let i=0;i<=10;i++){
+//     console.log("O valor de I é :",i)
+// }
+
+// //WHILE
+
+// let w=0;
+
+// while(w <=10){
+//    console.log("O valor de W é ",w)
+//    w++;
+// }
+
+
+// //do While
+
+// let z= 10;
+
+// do{
+//     console.log("do While é",z)
+//     z++;
+// }while(z <= 100)
+
+//Funções
+
+function saudacao(nome){
+    //console.log("Seja bem vindo", nome)
+    console.log(`Seja Bem vindo ${nome}`)//strings literarias
 }
+saudacao("Fiap")
 
-// ESTRUTURA DE LAÇO DE REPETIÇÃO
-
-for(let i=0;i<=10;i++){
-    console.log("O valor de I é :",i)
+function semaforo(){
+    let sinal ="Amarelo";
+    console.log(`O semafaro está ${sinal}`)
 }
+semaforo();
 
-//WHILE
-
-let w=0;
-
-while(w <=10){
-   console.log("O valor de W é ",w)
-   w++;
-}
-
-
-//do While
-
-let z= 10;
-
-do{
-    console.log("do While é",z)
-    z++;
-}while(z <= 100)
-
-    
 
 
 
